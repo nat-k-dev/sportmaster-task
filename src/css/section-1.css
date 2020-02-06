@@ -1,0 +1,14 @@
+
+.section-1__banner {
+    height: 523px;
+    width: 993px;
+    padding: 50px;
+    background-image: url('images/e-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

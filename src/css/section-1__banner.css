@@ -1,0 +1,50 @@
+.banner__gradient {
+    background: url('images/gradient.png') no-repeat center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 993px;
+    height: 206px;
+}
+
+.banner__spatter-spray-dust {
+    background: url('images/spatter-spray-dust.png') no-repeat center;
+    position: absolute;
+    right: -122px;
+    bottom: -133px;
+    width: 348px;
+    height: 414px;
+}
+
+.banner__address-text .location-pointer-icon {
+    margin-right: 6px;
+}
+
+.banner__text {
+    max-width: 415px;
+}
+
+.banner__brands {
+    width: 893px;
+    height: 103px;
+    background-image: url('images/rectangle-38.png');
+    position: relative;
+}
+
+.banner__brands::before,
+.banner__brands::after {
+    content: "";
+    background-image: url('images/rectangle-40.png');
+    width: 8px;
+    height: 103px;
+    position: absolute;
+    top: 0;
+}
+
+.banner__brands::before {    
+    left: 0;
+}
+
+.banner__brands::after {    
+    right: 0;
+}
