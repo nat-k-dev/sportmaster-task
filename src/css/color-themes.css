@@ -1,8 +1,10 @@
 
 .main-color-theme {
     background-color: #f5f5f5;
+    color: #182353;
 }
 
 .dark-color-theme {
     background-color: #323232;
+    color: white;
 }
