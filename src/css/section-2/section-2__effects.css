@@ -1,0 +1,44 @@
+.experts__gradient {
+    position: absolute;
+    background-image: url('./../images/DV/gradient_blue.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 561px;
+    height: 505px;
+    transform: translate(40%, 5%);
+}
+
+.experts__snow {
+    position: absolute;
+    background-image: url('./../images/DV/snow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 551px;
+    height: 587px;
+    transform: translate(40%, 5%);
+}
+
+@media (max-width: 989px) {
+    .experts__gradient {
+        background-image: url('./../images/PV/gradient_blue.png');
+        width: 533px;
+        height: 505px;
+    }
+    .experts__snow {
+        background-image: url('./../images/PV/snow.png');
+        transform: translate(17%, 4%);
+    }
+}
+
+@media (max-width: 767px) {
+    .experts__gradient {
+        background-image: url('./../images/MV/gradient_blue.png');
+        width: 252px;
+        height: 505px;
+    }
+    .experts__snow {
+        background-image: none;
+        width: 0;
+        height: 0;
+    }
+}

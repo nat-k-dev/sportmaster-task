@@ -1,5 +1,5 @@
 * {
-    font-family: proxima-nova, Arial, Helvetica, sans-serif;
+    font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
 }
 
 .font-s {
@@ -32,10 +32,18 @@
         font-size: 13px;
         line-height: 13px;
     }
+    .font-m {
+        font-size: 13px;
+        line-height: 13px;
+    }
     .font-l {
         font-size: 15px;
         line-height: 15px;
-    }    
+    }
+    .font-xl {
+        font-size: 18px;
+        line-height: 18px;
+    }     
     .font-xxl {
         font-size: 25px;
         line-height: 25px;

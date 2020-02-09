@@ -1,0 +1,41 @@
+.banner__gradient {
+    background: url('./../images/gradient.png') no-repeat center;
+    max-width: 990px;
+    height: 206px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.banner__spatter-spray-dust {
+    background: url('./../images/spatter-spray-dust.png') no-repeat center;
+    width: 348px;
+    height: 414px;
+    position: absolute;
+    right: -122px;
+    bottom: -133px;
+}
+
+@media (max-width: 989px) {
+    .banner__gradient {
+        background: url('./../images/PV/gradient.png') no-repeat center;
+        max-width: 758px;
+        height: 202px;
+    }    
+    .banner__spatter-spray-dust {
+        background: url('./../images/PV/spatter-spray-dust.png') no-repeat center;
+        width: 228px;
+        height: 414px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner__gradient {
+        background: url('./../images/MV/gradient.png') no-repeat center;
+        max-width: 310px;
+        height: 202px;
+    }    
+    .banner__spatter-spray-dust {
+        background-image: none;
+    }
+}

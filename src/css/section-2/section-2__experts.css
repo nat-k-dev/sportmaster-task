@@ -1,0 +1,136 @@
+.section-2__experts {
+    min-height: 680px;
+    padding: 70px 50px;
+    background-image: url('./../images/DV/pattern_blue.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+@media (max-width: 989px) {
+    .section-2__experts {
+        min-height: 640px;
+        background-image: url('./../images/PV/pattern_blue.png');
+        padding: 50px 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-2__experts {
+        height: 775px;
+        padding: 40px 20px;
+        background-image: url('./../images/MV/pattern_blue.png');
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+.experts__column {
+    z-index: 1;
+}
+
+.expert {
+    width: 435px;
+    height: 443px;
+    padding: 30px;
+    background-color: #242be5;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.experts-caption_width {
+    max-width: 160px;
+}
+
+@media (max-width: 989px) {
+    .expert {
+        width: 330px;
+        height: 445px;
+        padding: 28px;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 1fr;
+    }    
+}
+
+@media (max-width: 767px) {
+    .expert {
+        width: 270px;
+        height: 320px;
+        padding: 16px;
+        grid-gap: 15px;
+        grid-template-rows: 50px 1fr;
+    }
+    .experts-caption_width {
+        max-width: max-content;
+    }    
+}
+
+.expert__caption {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr;
+    grid-gap: 24px;
+}
+
+.expert__photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chadkin {
+    background-image: url('./../images/DV/chadkin.png');
+}
+
+.goldin {
+    background-image: url('./../images/DV/goldin.png');
+}
+
+.expert__description {
+    display: grid;
+    grid-gap: 27px;
+    grid-template-columns: 1fr;
+}
+
+@media (max-width: 989px) {
+    .expert__caption {
+        grid-gap: 18px;
+        grid-template-columns: 60px 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+    }
+    .expert__photo {
+        width: 60px;
+        height: 60px;
+    }    
+    .chadkin { background-image: url('./../images/PV/chadkin.png'); }
+    .goldin { background-image: url('./../images/PV/goldin.png'); }
+    .expert__description {
+        grid-gap: 24px;
+    }    
+}
+
+@media (max-width: 767px) {
+    .expert__caption {
+        grid-gap: 13px;
+        grid-template-columns: 50px 1fr;
+    }
+    .expert__photo {
+        width: 50px;
+        height: 50px;
+    }    
+    .chadkin { background-image: url('./../images/MV/chadkin.png'); }
+    .goldin { background-image: url('./../images/MV/goldin.png'); }
+    .expert__description {
+        grid-gap: 19px;
+    }
+}

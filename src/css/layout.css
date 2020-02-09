@@ -34,8 +34,15 @@
     margin-bottom: 40px;
 }
 
+.mb-experts-caption {
+    margin-bottom: 35px;
+}
+
 @media (max-width: 767px) {
     .mb-banner-1 {
+        margin-bottom: 20px;
+    }
+    .mb-experts-caption {
         margin-bottom: 20px;
     }
 }

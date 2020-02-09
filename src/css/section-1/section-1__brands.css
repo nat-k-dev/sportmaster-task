@@ -1,67 +1,7 @@
-.banner__gradient {
-    background: url('images/gradient.png') no-repeat center;
-    max-width: 990px;
-    height: 206px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.banner__spatter-spray-dust {
-    background: url('images/spatter-spray-dust.png') no-repeat center;
-    width: 348px;
-    height: 414px;
-    position: absolute;
-    right: -122px;
-    bottom: -133px;
-}
-
-@media (max-width: 989px) {
-    .banner__gradient {
-        background: url('images/PV/gradient.png') no-repeat center;
-        max-width: 758px;
-        height: 202px;
-    }    
-    .banner__spatter-spray-dust {
-        background: url('images/PV/spatter-spray-dust.png') no-repeat center;
-        width: 228px;
-        height: 414px;
-    }
-}
-
-@media (max-width: 767px) {
-    .banner__gradient {
-        background: url('images/MV/gradient.png') no-repeat center;
-        max-width: 310px;
-        height: 202px;
-    }    
-    .banner__spatter-spray-dust {
-        background-image: none;
-    }
-}
-
-.location-pointer-icon {
-    margin-right: 6px;
-}
-
-.banner__text {
-    max-width: 415px;
-}
-
-.banner__text_bottom-margin {
-    margin-bottom: 115px;
-}
-
-@media (max-width: 767px) {
-    .banner__text_bottom-margin {
-        margin-bottom: 30px;
-    }
-}
-
 .banner__brands {
     width: 893px;
     height: 103px;
-    background-image: url('images/brands-bg.png');
+    background-image: url('./../images/brands-bg.png');
     position: absolute;
     bottom: 50px;
     left: 50px;
@@ -76,7 +16,7 @@
 .brands__prev,
 .brands__next {
     cursor: pointer;
-    background-image: url('images/rectangle-40.png');
+    background-image: url('./../images/rectangle-40.png');
     position: absolute;
     top: 0;
     z-index: 1;
@@ -104,10 +44,10 @@
         padding-right: 30px;
     }
     .brands__prev {
-        background-image: url('images/btn_prev.png');
+        background-image: url('./../images/btn_prev.png');
     }
     .brands__next {
-        background-image: url('images/btn_next.png');
+        background-image: url('./../images/btn_next.png');
     }
     .prev-btn-size {
         width: 30px;
@@ -143,12 +83,11 @@
         position: absolute;
         left: 20px;
         bottom: 23px;
-        background-image: url('images/MV/brands.png');
+        background-image: url('./../images/MV/brands.png');
         background-position: center;
         background-repeat: no-repeat;
     }
 }
-
 
 .banner__brands-list {
     height: 100%;
@@ -170,12 +109,12 @@
     }
 }
 
-.logo-ccm { background-image: url('images/logo-ccm.png'); }
-.logo-bauer { background-image: url('images/logo-bauer.png'); }
-.logo-warrior { background-image: url('images/logo-warrior.png'); }
-.logo-graf { background-image: url('images/logo-graf.png'); }
-.logo-zarad { background-image: url('images/logo-zarad.png'); }
-.logo-fischer { background-image: url('images/logo-fischer.png'); }
+.logo-ccm { background-image: url('./../images/logo-ccm.png'); }
+.logo-bauer { background-image: url('./../images/logo-bauer.png'); }
+.logo-warrior { background-image: url('./../images/logo-warrior.png'); }
+.logo-graf { background-image: url('./../images/logo-graf.png'); }
+.logo-zarad { background-image: url('./../images/logo-zarad.png'); }
+.logo-fischer { background-image: url('./../images/logo-fischer.png'); }
 
 .logo-ccm,
 .logo-bauer,
