@@ -1,5 +1,5 @@
 .banner__gradient {
-    background: url('./../images/gradient.png') no-repeat center;
+    background: url('./../images/DV/gradient.png') no-repeat center;
     max-width: 990px;
     height: 206px;
     position: absolute;
@@ -8,7 +8,7 @@
 }
 
 .banner__spatter-spray-dust {
-    background: url('./../images/spatter-spray-dust.png') no-repeat center;
+    background: url('./../images/DV/spatter-spray-dust.png') no-repeat center;
     width: 348px;
     height: 414px;
     position: absolute;

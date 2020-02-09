@@ -1,7 +1,7 @@
 .banner__brands {
     width: 893px;
     height: 103px;
-    background-image: url('./../images/brands-bg.png');
+    background-image: url('./../images/DV/brands-bg.png');
     position: absolute;
     bottom: 50px;
     left: 50px;
@@ -16,7 +16,7 @@
 .brands__prev,
 .brands__next {
     cursor: pointer;
-    background-image: url('./../images/rectangle-40.png');
+    background-image: url('./../images/DV/rectangle-40.png');
     position: absolute;
     top: 0;
     z-index: 1;

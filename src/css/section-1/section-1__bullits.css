@@ -18,11 +18,11 @@
     background-repeat: no-repeat;
 }
 
-.bullits__icon-1 { background-image: url('./../images/-e-icon_1.png'); }
-.bullits__icon-2 { background-image: url('./../images/-e-icon_2.png'); }
-.bullits__icon-3 { background-image: url('./../images/-e-icon_3.png'); }
-.bullits__icon-4 { background-image: url('./../images/-e-icon_4.png'); }
-.bullits__icon-5 { background-image: url('./../images/-e-icon_5.png'); }
+.bullits__icon-1 { background-image: url('./../images/DV/-e-icon_1.png'); }
+.bullits__icon-2 { background-image: url('./../images/DV/-e-icon_2.png'); }
+.bullits__icon-3 { background-image: url('./../images/DV/-e-icon_3.png'); }
+.bullits__icon-4 { background-image: url('./../images/DV/-e-icon_4.png'); }
+.bullits__icon-5 { background-image: url('./../images/DV/-e-icon_5.png'); }
 
 .bullit {
     position: relative;
