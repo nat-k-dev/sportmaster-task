@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url('./../images/DV/e-icons.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite--e-icon_1 {
+    width: 27px;
+    height: 31px;
+    background-position: -5px -5px;
+}
+
+.sprite--e-icon_2 {
+    width: 27px;
+    height: 26px;
+    background-position: -5px -46px;
+}
+
+.sprite--e-icon_3 {
+    width: 25px;
+    height: 32px;
+    background-position: -5px -82px;
+}
+
+.sprite--e-icon_4 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -124px;
+}
+
+.sprite--e-icon_5 {
+    width: 34px;
+    height: 34px;
+    background-position: -5px -166px;
+}

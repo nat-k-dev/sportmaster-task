@@ -27,14 +27,18 @@
     line-height: 45px;
 }
 
+.font-btn-buy {
+    font-size: 14px;
+}
+
 @media (max-width: 767px) {
     .font-s {
         font-size: 13px;
         line-height: 13px;
     }
     .font-m {
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 14px;
+        line-height: 14px;
     }
     .font-l {
         font-size: 15px;
@@ -48,6 +52,10 @@
         font-size: 25px;
         line-height: 25px;
     }
+    .font-btn-buy {
+        font-size: 12px;
+    }
+    
 }
 
 .font-bold {
@@ -64,6 +72,10 @@
 
 .font-uppercase {
     text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .text-center-dv-pv {
