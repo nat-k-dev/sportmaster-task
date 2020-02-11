@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url('./../images/tech-icons.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .sprite {
+        transform: scale(0.7);
+    }
+}
+
+.sprite-tech-duraflex {
+    width: 114px;
+    height: 21px;
+    background-position: -5px -5px;
+}
+
+.sprite-tech-liteframe {
+    width: 85px;
+    height: 15px;
+    background-position: -5px -36px;
+}
+
+.sprite-tech-tuuk {
+    width: 130px;
+    height: 17px;
+    background-position: -5px -61px;
+}
+
+.sprite-tech-x-curv {
+    width: 88px;
+    height: 34px;
+    background-position: -5px -88px;
+}
+
+.sprite-tech-x-flow {
+    width: 64px;
+    height: 15px;
+    background-position: -5px -132px;
+}

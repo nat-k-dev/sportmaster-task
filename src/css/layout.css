@@ -63,3 +63,15 @@
         max-width: 310px;
     }    
 }
+
+.margin-hor-mv {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media (max-width: 767px) {
+    .margin-hor-mv {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}

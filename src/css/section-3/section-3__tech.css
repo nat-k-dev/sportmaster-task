@@ -1,0 +1,103 @@
+.section-3__tech-container {
+    width: 890px;
+}
+
+@media (max-width: 989px) {
+    .section-3__tech-container {
+        width: 675px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-3__tech-container {
+        width: 270px;
+    }
+}
+
+.section-3__tech-content {
+    list-style-type: none;
+}
+
+.section-3__tech-item {
+    display: none;
+    min-height: 320px;
+    background-image: url('./../images/DV/pattern_dark.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@media (max-width: 989px) {
+    .section-3__tech-item {
+        min-height: 380px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-3__tech-item {
+        min-height: 420px;
+        background-image: none;
+    }
+}
+
+.tech__image-container {
+    position: relative;
+    font-style: normal;
+}
+
+.tech__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 360px;
+    width: 430px;
+    left: 0;
+    top: -40px;
+}
+
+.tech-img-1 { background-image: url('./../images/DV/tech-img-1.png'); }
+.tech-img-2 { background-image: url('./../images/DV/tech-img-2.png'); }
+.tech-img-3 { background-image: url('./../images/DV/tech-img-3.png'); }
+.tech-img-4 { background-image: url('./../images/DV/tech-img-4.png'); }
+.tech-img-5 { background-image: url('./../images/DV/tech-img-5.png'); }
+
+@media (max-width: 989px) {
+    .tech__image {
+        width: 320px;
+        top: -55px;
+        right: 0;
+        background-size: contain;
+    }
+    .tech-img-1 { background-image: url('./../images/PV/tech-img-1.png'); }
+    /* keep other images from DV layout in order to save time and disk space  */
+}
+
+@media (max-width: 767px) {
+    .tech__image-container {
+        min-height: 180px;
+    }
+    .tech__image {
+        width: 210px;
+        height: 180px;
+        top: 0;
+        left: 0;
+        background-size: contain;
+    }
+    .tech-img-1 { background-image: url('./../images/DV/tech-img-1.png'); }
+    /* keep images from DV layout in order to save time and disk space  */
+}
+
+.tech__description {
+    padding: 50px 50px 50px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 28px;
+}
+
+@media (max-width: 767px) {
+    .tech__description {
+        padding: 0;
+        grid-gap: 25px;
+    }    
+}
