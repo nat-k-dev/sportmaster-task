@@ -9,7 +9,7 @@
 * Google Chrome
 * Mozilla Firefox
 * Opera
-* Microsoft Edge
+* Microsoft Edge (но градиент в секции с экспертами, где снег и фон, поверх текста)
 
 Internet Explorer не поддерживает.
 
